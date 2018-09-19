@@ -8,7 +8,6 @@ import org.springframework.stereotype.Component;
 import com.chevs.homedesign.service.dto.ProjectDetailsRequest;
 import com.chevs.homedesign.service.model.ProjectDetails;
 
-@Component
 public class ProjectMapper {
 
 	@Autowired

@@ -15,8 +15,6 @@ public class ProjectDetailsServiceImpl implements ProjectDetailsService {
 	@Autowired
 	ProjectDetailsRepository repository;
 
-	@Autowired
-	ProjectMapper projectMapper;
 
 	@Override
 	public ProjectDetailsRespose createProject(ProjectDetailsRequest request) {
