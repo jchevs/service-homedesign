@@ -5,7 +5,8 @@ import javax.persistence.Lob;
 import org.springframework.web.multipart.MultipartFile;
 
 public class ProjectDocumentRequest {
-private String projectId;
+    
+	private String projectId;
 	
 	private String doctId;
 	

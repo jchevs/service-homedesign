@@ -7,7 +7,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "project_documents")
-public class ProjectDocuments extends BaseEntity{
+public class ProjectDocuments extends BaseEntity {
 
 	private String projectId;
 	

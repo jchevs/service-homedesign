@@ -14,15 +14,15 @@ public class ProjectDetailsRequest {
 
 	private Double area;
 
-	private int noOfBedRooms;
+	private Integer noOfBedRooms;
 
-	private int noOfBathRooms;
+	private Integer noOfBathRooms;
 
-	private int noOfLivingRooms;
+	private Integer noOfLivingRooms;
 
-	private int stories;
+	private Integer stories;
 
-	private int garage;
+	private Integer garage;
 
 	public String getProjectId() {
 		return projectId;
@@ -72,43 +72,43 @@ public class ProjectDetailsRequest {
 		this.area = area;
 	}
 
-	public int getNoOfBedRooms() {
+	public Integer getNoOfBedRooms() {
 		return noOfBedRooms;
 	}
 
-	public void setNoOfBedRooms(int noOfBedRooms) {
+	public void setNoOfBedRooms(Integer noOfBedRooms) {
 		this.noOfBedRooms = noOfBedRooms;
 	}
 
-	public int getNoOfBathRooms() {
+	public Integer getNoOfBathRooms() {
 		return noOfBathRooms;
 	}
 
-	public void setNoOfBathRooms(int noOfBathRooms) {
+	public void setNoOfBathRooms(Integer noOfBathRooms) {
 		this.noOfBathRooms = noOfBathRooms;
 	}
 
-	public int getNoOfLivingRooms() {
+	public Integer getNoOfLivingRooms() {
 		return noOfLivingRooms;
 	}
 
-	public void setNoOfLivingRooms(int noOfLivingRooms) {
+	public void setNoOfLivingRooms(Integer noOfLivingRooms) {
 		this.noOfLivingRooms = noOfLivingRooms;
 	}
 
-	public int getStories() {
+	public Integer getStories() {
 		return stories;
 	}
 
-	public void setStories(int stories) {
+	public void setStories(Integer stories) {
 		this.stories = stories;
 	}
 
-	public int getGarage() {
+	public Integer getGarage() {
 		return garage;
 	}
 
-	public void setGarage(int garage) {
+	public void setGarage(Integer garage) {
 		this.garage = garage;
 	}
 }
